@@ -58,6 +58,11 @@ p {
     color: #333;
 }
 
+.btn-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
 /* Navbar */
 #navbar {
     background: #333;
@@ -98,7 +103,7 @@ p {
 /* Showcase */
 
 #showcase {
-    background: url(../img/bed-bedroom-cozy-164595.webp) no-repeat center center/cover;
+    background: url(../img/showcase.jpg) no-repeat center center/cover;
     height: 600px;
 
 }
@@ -123,3 +128,12 @@ p {
 #home-info {
     height: 400px;
 }
+
+.#home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url(../img/photo-1.jpg) no-repeat;
+    min-width: 100%;
+}
+
+// .info-content
