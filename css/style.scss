@@ -1,13 +1,14 @@
+/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-// Main Stayling
+/* Main Styling */
 html,
 body {
-    font-family: 'Segoe UI', Tahoma, Veranda, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7em;
 }
 
@@ -26,15 +27,13 @@ p {
     margin: 10px 0;
 }
 
-// Utilities
+/* Utility Classes */
 .container {
     margin: auto;
     max-width: 1100px;
     overflow: auto;
     padding: 0 20px;
 }
-
-
 
 .text-primary {
     color: #f7c08a;
@@ -51,14 +50,19 @@ p {
     background: #333;
     padding: 13px 20px;
     border: none;
+    cursor: pointer;
 }
 
-// Navbar
+.btn:hover {
+    background: #f7c08a;
+    color: #333;
+}
+
+/* Navbar */
 #navbar {
     background: #333;
     color: #fff;
     overflow: auto;
-
 }
 
 #navbar a {
@@ -91,7 +95,7 @@ p {
     color: #f7c08a;
 }
 
-// showcase
+/* Showcase */
 
 #showcase {
     background: url(../img/bed-bedroom-cozy-164595.webp) no-repeat center center/cover;
@@ -110,8 +114,12 @@ p {
     line-height: 1.2em;
 }
 
-
 #showcase .showcase-content p {
     padding-bottom: 20px;
     line-height: 1.7em;
+}
+
+/* Home Info */
+#home-info {
+    height: 400px;
 }
