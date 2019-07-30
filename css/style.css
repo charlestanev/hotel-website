@@ -140,7 +140,7 @@ p {
 
 /* Showcase */
 #showcase {
-    background: url('../img/showcase.jpg') no-repeat center center/cover;
+    background: url('../img/showcase.webp') no-repeat center center/cover;
     height: 600px;
 }
 
@@ -168,7 +168,7 @@ p {
 #home-info .info-img {
     float: left;
     width: 50%;
-    background: url('../img/photo-1.jpg') no-repeat;
+    background: url('../img/photo-1.webp') no-repeat;
     min-height: 100%;
 }
 
@@ -221,7 +221,7 @@ p {
 /* testimonials */
 #testimonials {
     height: 600px;
-    background: url('../img/test-bg.jpg') no-repeat center center/cover;
+    background: url('../img/test-bg.webp') no-repeat center center/cover;
     padding-top: 100px;
 }
 
